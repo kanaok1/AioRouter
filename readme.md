@@ -6,6 +6,7 @@
 
 ```bash
 pip install aiorouter
+```
 💡 Features
 🔍 Automatic Router Discovery: The library recursively scans all directories and modules in your project, finding and gathering all routers in one place.
 🚀 Easy to Use: A simple and intuitive API that allows you to quickly set up and use it in your project.
