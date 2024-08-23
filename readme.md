@@ -14,13 +14,13 @@ pip install aiorouter
 
 from aiorouter import RouterManager
 
-**Specify the root directory of your project where the router modules are located.**
+Specify the root directory of your project where the router modules are located.
 router_manager = RouterManager(root_path="bot")
 
-**Collect all routers from the modules.**
+Collect all routers from the modules.
 routers = router_manager.collect_routers()
 
-**Now you have a list of all routers, ready to be used in your bot!**
+Now you have a list of all routers, ready to be used in your bot!
 for router in routers:
     # Add each router to the main bot application
     app.include_router(router)
